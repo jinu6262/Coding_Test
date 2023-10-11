@@ -7,3 +7,5 @@ function solution(dot) {
         else return 3
     }
 }
+
+// 구조분해 할당을 사용한 방식의 풀이도 있었다*
