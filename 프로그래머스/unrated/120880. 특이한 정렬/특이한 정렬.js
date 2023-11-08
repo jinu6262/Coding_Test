@@ -11,3 +11,8 @@ function solution(numlist, n) {
 
     return arr;
 }
+
+// 위 와 같은 로직
+//  function solution(numlist, n) {
+//      return numlist.sort((a, b) => Math.abs(a - n) - Math.abs(b - n) || b - a);
+//  }
